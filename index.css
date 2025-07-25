@@ -112,6 +112,7 @@ h2{
     color: white;
     font-family: 'Courier New', Courier, monospace;
     padding-left: 30px;
+    line-height: 1.2;
 }
 .Contact h1{
     font-size: 40px;
