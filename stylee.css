@@ -1,0 +1,195 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+    background-color: #121216;
+    font-family: 'Poppins', sans-serif;
+    color: whitesmoke;
+}
+
+section {
+  padding: 150px 50px;
+  text-align: center;
+}
+
+header{
+    background-color: #0e0e10;
+    padding: 20px 40px;
+    border-bottom: #c792ea 2px double;
+}
+ 
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+nav h1{
+    color: #c792ea;
+    font-size: 25px;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+    font-weight:bold
+}
+nav ul li a{
+    text-decoration: none;
+    color: whitesmoke; 
+    transition: 500ms ease;
+}
+
+ul a:hover{
+    color:#c792ea
+}
+
+.About h2{
+    font-size: 35px;
+}
+
+.About span{
+    color: #c792ea;
+}
+
+.abttxt{
+    font-size: 18px;
+    max-width: 600px;
+    line-height: 1.7;
+    margin:20px auto;
+}
+
+.resume{
+    font-size: 17px;
+}
+
+.resume a{
+    border-radius: 15px;
+    background-color:#c792ea ;
+    color: black;
+    display: inline-block;
+    padding: 12px 20px;
+    text-decoration: none;
+    margin-top:20px ;
+    font-size: 18px;
+    font-weight: bold;
+    border:4px double #1f092e ;
+    transition: transform 0.3s ease-in;
+}
+.resume a:hover{
+    transform: scale(1.1);
+}
+
+
+.Why h1{
+    font-size: 35px;
+}
+.Why span{
+    color: #c792ea;
+}
+.Why p{
+    max-width: 600px;
+    line-height: 1.7;
+    margin:20px auto;
+    font-size: 18px;
+}
+
+.Skills h3{
+    font-size: 35px;
+}
+.Skills span{
+    color: #c792ea;
+}
+
+.skill-row{
+    display: flex;
+    gap:80px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+.Box h3{
+    font-size: 25px;
+    font-weight: normal;
+}
+.Box{
+    border-radius: 15px;
+    background-color: #0d0a0f88;
+    padding: 20px;
+    height:200px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow:12px 17px  #c792ea,0 0 10px #aa59e0;
+    border:4px double #aa59e0;
+    transition: transform 0.3s ease-in;
+}
+.Box:hover{
+    transform: scale(1.1);
+}
+.skills-grid h2{
+    font-size:35px ;
+}
+.skills-grid span{
+    color: #aa59e0;
+}
+.grid{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.pbox{
+    background-color:#0d0a0f88 ;
+    color: #fff;
+    padding: 10px 25px;
+    border-radius: 30px;
+    margin: 5px;
+    border:4px double #aa59e0;
+    box-shadow: 0 0 10px #aa59e0;
+    transition: transform 0.3s ease-in;
+}
+.pbox:hover{
+  transform:scale(1.1);
+}
+
+.Contact h1{
+    font-size: 35px;
+}
+.Contact span{
+    color: #aa59e0;
+}
+.Contact p{
+    font-size: 18px;
+}
+.Contact a{
+    color:whitesmoke;
+}
+.Contact i{
+    font-size: 30px;
+    padding: 15px 15px;
+}
+.Contact i:hover{
+    color: #aa59e0;
+    transition: 500ms ease-in-out;
+}
+
+
+@media (max-width: 480px) {
+    .grid{
+        flex-direction: column;
+    }
+    html, body {
+    width: 100%;
+    overflow-x: hidden; 
+    margin: 0 auto;      
+}
